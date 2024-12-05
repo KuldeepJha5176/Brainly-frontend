@@ -1,5 +1,4 @@
 import { ReactElement } from "react";
-
 interface ButtonInterface {
     title: string;
     size: "lg" | "sm" | "md";

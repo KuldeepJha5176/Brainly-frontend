@@ -1,5 +1,5 @@
 import './App.css'
-import { Button } from './component/ui/Button'
+import { Button } from './components/ui/Button'
 import { PlusIcon } from './Icons/plusIcon' 
 import { ShareIcon } from './Icons/shareIcon' 
 
