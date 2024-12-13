@@ -8,13 +8,6 @@ function App() {
 
   return (
     <>
-      <Button 
-        variant={"primary"}
-        startIcon={<PlusIcon size={"md"} />} 
-        endIcon={<ShareIcon size={"md"} />} 
-        size="md" 
-        title={"Share"}
-      ></Button>
 
 <Button 
         variant={"secondary"}
