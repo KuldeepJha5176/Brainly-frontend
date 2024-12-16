@@ -1,12 +1,14 @@
 import "./App.css";
 import { Button } from "./components/ui/Button";
 import { Card } from "./components/ui/card";
+import { CreateContentModal } from "./components/ui/CreateContentModal";
 import { PlusIcon } from "./Icons/plusIcon";
 import { ShareIcon } from "./Icons/shareIcon";
 
 function App() {
   return (
     <div className="p-2">
+      <CreateContentModal open={true} />
       <div className="flex justify-end gap-4">
         <div>
         <Button onClick={() => {
