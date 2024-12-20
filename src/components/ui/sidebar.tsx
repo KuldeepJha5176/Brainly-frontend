@@ -1,7 +1,7 @@
 import { Logo } from "../../Icons/Logo";
 import { TwitterIcon } from "../../Icons/TwitterIcon";
 import { YoutubeIcon } from "../../Icons/YoutubeIcon";
-import { SidebarItems } from "./sidebaritems";
+import { SidebarItem } from "./sidebaritems";
 
 export function Sidebar() {
   return <div className="h-screen bg-white border-r w-72 fixed left-0 top-0 pl-6">
@@ -12,8 +12,8 @@ export function Sidebar() {
           Brainly
       </div>
       <div className="pt-8 pl-4">
-          <SidebarItems text="Twitter" Icons={<TwitterIcon />} />
-          <SidebarItems text="Youtube" Icons={<YoutubeIcon />} />
+          <SidebarItem text="Twitter" Icons={<TwitterIcon />} />
+          <SidebarItem text="Youtube" Icons={<YoutubeIcon />} />
       </div>
   </div>
 }
