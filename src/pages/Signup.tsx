@@ -7,8 +7,7 @@ export function Signup() {
     const PasswordRef = useRef<HTMLInputElement>();
 
     function signup() {
-        const username = UsernameRef.current?.value;
-        const password = PasswordRef.current?.value;
+       
 
     }
     return (
