@@ -3,13 +3,10 @@ import { Input } from "../components/input";
 import { Button } from "../components/ui/Button";
 
 export function Signup() {
-    const UsernameRef = useRef<HTMLInputElement>();
-    const PasswordRef = useRef<HTMLInputElement>();
+    
 
     function signup() {
-       const username = UsernameRef.current?.value;
-       const password = PasswordRef.current?.value;
-
+       
     }
     return (
     <div className="h-screen w-screen bg-gray-200 flex justify-center items-center">
