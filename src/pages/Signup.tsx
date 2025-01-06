@@ -3,9 +3,12 @@ import { Input } from "../components/input";
 import { Button } from "../components/ui/Button";
 
 export function Signup() {
-    
+     const UsernameRef = useRef<HTMLInputElement>(null);
+     const PasswordRef = useRef<HTMLInputElement>(null);
 
     function signup() {
+       const username = UsernameRef.current?.value;
+       const password = PasswordRef.current?.value;
        
     }
     return (
