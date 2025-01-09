@@ -7,9 +7,7 @@ export function Signup() {
      const PasswordRef = useRef<HTMLInputElement>(null);
 
     function signup() {
-       const username = UsernameRef.current?.value;
-       const password = PasswordRef.current?.value;
-    }
+       
     return (
     <div className="h-screen w-screen bg-gray-200 flex justify-center items-center">
     <div className="bg-white rounded-xl border min-w-48 p-8">
